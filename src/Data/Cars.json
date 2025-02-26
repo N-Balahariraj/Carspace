@@ -1,0 +1,67 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "zip_code": "90210",
+    "price": "$25,000",
+    "mileage": "30,000 miles",
+    "year": "2019",
+    "online_shopping_options": "Yes",
+    "exterior_color": "Red",
+    "interior_color": "Black",
+    "drive_train": "AWD",
+    "transmission": "Automatic"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "zip_code": "10001",
+    "price": "$20,000",
+    "mileage": "25,000 miles",
+    "year": "2020",
+    "online_shopping_options": "Yes",
+    "exterior_color": "Blue",
+    "interior_color": "Gray",
+    "drive_train": "FWD",
+    "transmission": "CVT"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "zip_code": "60601",
+    "price": "$30,000",
+    "mileage": "15,000 miles",
+    "year": "2021",
+    "online_shopping_options": "No",
+    "exterior_color": "Black",
+    "interior_color": "Red",
+    "drive_train": "RWD",
+    "transmission": "Manual"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "zip_code": "30301",
+    "price": "$22,000",
+    "mileage": "20,000 miles",
+    "year": "2018",
+    "online_shopping_options": "Yes",
+    "exterior_color": "White",
+    "interior_color": "Black",
+    "drive_train": "AWD",
+    "transmission": "Automatic"
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "zip_code": "94101",
+    "price": "$18,000",
+    "mileage": "40,000 miles",
+    "year": "2017",
+    "online_shopping_options": "No",
+    "exterior_color": "Silver",
+    "interior_color": "Beige",
+    "drive_train": "FWD",
+    "transmission": "Automatic"
+  }
+]

@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  margin:0;
+  box-sizing: border-box;  
+}
+
+.Auth::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background-image: url('../../public/Pics/Auth/AuthBg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.Auth{
+  height: 100%;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Site{
+  height: 100%;
+  width: 100vw;
+
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+}
+
+.Site::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+}
+
+header{
+  height: 100%;
+  width: 100%;
+
+  background-image: url(../../public/Pics/Header.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* display: flex; */
+}
+
+footer{
+  height: 50%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: #0d6efd;
+  color: white;
+  padding: 1rem;
+}
+
+.label{
+  /* @apply m-1 */
+}
+
+.input{
+  @apply outline-none bg-[#eeeeee] h-10 rounded-lg px-3
+}
+
+.button{
+  @apply bg-[#dc3545] rounded-md p-2 shadow-lg text-white
+}
+
+/* Toggler */
+
+.switch .HCheck { 
+  opacity: 0;
+  width: 0px;
+  height: 0px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: .6s;
+  transition: .6s;
+  background-color: #eeeeef;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 80%;
+  width: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: #dc3545;
+  -webkit-transition: .6s;
+  transition: .6s;
+  border-radius:.5rem;
+  overflow:hidden;
+}
+
+.HCheck:checked + .slider:before {
+  -webkit-transform: translateX(90%);
+  -ms-transform: translateX(90%);
+  transform: translateX(90%);
+}
