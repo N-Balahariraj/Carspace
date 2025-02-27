@@ -1,5 +1,5 @@
 import React from 'react'
-import Toggler from '../Utils/Toggler'
+import Toggler from '../User/Utils/Toggler'
 import { Outlet } from 'react-router-dom'
 
 

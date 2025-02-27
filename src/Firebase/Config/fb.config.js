@@ -1,6 +1,7 @@
 export const firebaseConfig = {
   apiKey: "AIzaSyBwC0jhyKa843UBjVhPbZiU0bxU_BZ5aJM",
   authDomain: "carspace-4a622.firebaseapp.com",
+  databaseURL: "https://carspace-4a622-default-rtdb.firebaseio.com",
   projectId: "carspace-4a622",
   storageBucket: "carspace-4a622.firebasestorage.app",
   messagingSenderId: "77051337986",
